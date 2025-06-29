@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Novel Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fefaf6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #6c63ff;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      background-color: #ddd;
+      padding: 10px 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 30px;
+      text-align: center;
+    }
+
+    section img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      margin: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #6c63ff;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background-color: #ff6f61;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #ff3b2f;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Novel Store</h1>
+    <p>Your one-stop shop for thrilling and romantic stories</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#collection">Collection</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>About Us</h2>
+    <p>At Novel Store, we bring you a curated selection of must-read novels across genres like mystery, romance, sci-fi, and more!</p>
+    <button class="btn" onclick="showAlert()">Click for a Surprise</button>
+  </section>
+
+  <section id="collection">
+    <h2>Top Picks</h2>
+    <img src="https://i0.wp.com/www.thenerddaily.com/wp-content/uploads/2019/01/Verity-by-Colleen-Hoover.jpg" alt="Mystery Novel">
+    <img src="https://cdn.kobo.com/book-images/f88bb909-6384-4039-93c0-55e25c145852/1200/1200/False/twisted-love-tome-1.jpg" alt="Romance Novel">
+    <img src="https://i.pinimg.com/564x/f7/c8/12/f7c812c9b0296cd9f119e33a06d9a256.jpg" alt="Sci-Fi Novel">
+    <p><a href="https://www.goodreads.com/" target="_blank">Explore More on Goodreads</a></p>
+  </section>
+
+  <footer id="contact">
+    <p>Contact us at: support@novelstore.com </p>
+  </footer>
+
+  <script>
+    function showAlert() {
+      alert("Thank you for visiting Novel Store! Happy reading 📚");
+    }
+  </script>
+
+</body>
+</html>
